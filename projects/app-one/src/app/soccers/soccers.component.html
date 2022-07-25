@@ -1,0 +1,16 @@
+<h2>App One My Soccers</h2>
+<ul class="soccers">
+  <li *ngFor="let soccer of soccers">
+    <a (click)="onSelect(soccer)" [class.selected]="soccer === selectSoccer">
+      <span class="badge">{{ soccer.id }}</span> {{ soccer.name }}
+    </a>
+    <!-- <button
+      type="button"
+      (click)="onSelect(soccer)"
+      [class.selected]="soccer === selectSoccer"
+    >
+      <span class="badge">{{ soccer.id }}</span>
+      <span class="name">{{ soccer.name }}</span>
+    </button> -->
+  </li>
+</ul>

@@ -1,0 +1,13 @@
+{
+  "name": "app-two",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "ng serve app-two",
+    "build": "ng build app-two",
+    "test": "ng test app-two",
+    "lint": "ng lint app-two"
+  },
+  "dependencies": {
+    "shared": "^0.0.1"
+  }
+}

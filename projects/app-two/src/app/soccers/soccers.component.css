@@ -1,0 +1,68 @@
+/* HeroesComponent's private CSS styles */
+.soccers {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
+}
+
+.soccers li {
+  position: relative;
+  cursor: pointer;
+}
+
+.soccers li:hover {
+  left: 0.1em;
+}
+
+.soccers a {
+  color: #555555;
+  text-decoration: none;
+  background-color: #faacab;
+  margin: 0.5em;
+  padding: 0.3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
+.soccers a:hover {
+  color: #FFE5E5;
+  background-color: #f67372;
+}
+
+.soccers a:active {
+  background-color: #f23a39;
+  color: #fafafa;
+}
+
+.soccers a.selected {
+  background-color: #ee0100;
+  color: white;
+}
+
+.soccers .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #b90000;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: 0.8em;
+  border-radius: 4px 0 0 4px;
+}
