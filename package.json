@@ -15,7 +15,8 @@
     "start2": "lerna run start --scope=app-two --stream",
     "build2": "lerna run build --scope shared --scope app-two --stream",
     "watch2": "ng build --watch --configuration development",
-    "test2": "lerna run test --scope=app-two,shared --stream"
+    "test2": "lerna run test --scope=app-two,shared --stream",
+    "build-all": "lerna run build"
   },
   "private": true,
   "dependencies": {
